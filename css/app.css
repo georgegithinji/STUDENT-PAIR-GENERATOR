@@ -111,3 +111,13 @@
 .window1 {
   float: right;
 }
+.btn#view-previous {
+  margin-top: 35%;
+  margin-left: 8%;
+  height: 4em;
+}
+
+.form-list {
+  width: 80%;
+  margin-left: 10%;
+}
