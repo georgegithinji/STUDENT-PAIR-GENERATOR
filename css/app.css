@@ -34,3 +34,22 @@
 .container.sign-up h2 {
   text-align: center;
 }
+.container.login h2 {
+  text-align: center;
+}
+
+.container.login {
+  box-shadow: inset 0 0 150px #000;
+  width: 30%;
+  height: 50vh;
+  float: right;
+  margin-right: 10%;
+  margin-top: 8%;
+  font-weight: bolder;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.container.login button {
+  margin-top: 8%;
+}
