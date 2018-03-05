@@ -28,6 +28,8 @@
   float: left;
   margin-left: 10%;
   margin-top: 6%;
+  text-align: center;
+  font-weight: bolder;
 }
 
 .container.login {
@@ -37,4 +39,6 @@
   float: right;
   margin-right: 10%;
   margin-top: 9%;
+  text-align: center;
+  font-weight: bolder;
 }
