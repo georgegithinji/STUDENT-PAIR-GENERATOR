@@ -20,3 +20,21 @@
 .container.admin #pas {
   margin-top: 4%;
 }
+
+.container.sign-up {
+  width: 30%;
+  height: 60vh;
+  border: 2px solid black;
+  float: left;
+  margin-left: 10%;
+  margin-top: 6%;
+}
+
+.container.login {
+  border: 2px solid black;
+  width: 30%;
+  height: 40vh;
+  float: right;
+  margin-right: 10%;
+  margin-top: 9%;
+}
