@@ -1,5 +1,6 @@
 .btn.btn-lg {
   border-radius: 15px 50px 30px;
+  background-color: #C70039;
 }
 
 .container.admin {
@@ -7,7 +8,7 @@
   margin-left: 30%;
   margin-top: 8%;
   height: 58vh;
-  box-shadow: inset 0 0 200px #000;
+  box-shadow: inset 0 0 200px #AE9CA1;
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -19,6 +20,7 @@
 
 .container.admin button {
   margin-top: 8%;
+  background-color: #C70039;
 }
 
 .container.admin #pas {
@@ -26,7 +28,7 @@
 }
 
 .container.sign-up {
-  box-shadow: inset 0 0 150px #ccc;
+  box-shadow: inset 0 0 150px #AE9CA1;
   width: 30%;
   height: 65vh;
   float: left;
@@ -46,7 +48,7 @@
 }
 
 .container.login {
-  box-shadow: inset 0 0 150px #000;
+  box-shadow: inset 0 0 150px #AE9CA1;
   width: 30%;
   height: 50vh;
   float: right;
@@ -55,14 +57,17 @@
   font-weight: bolder;
   padding-left: 4%;
   padding-right: 4%;
+
 }
 
 .container.login button {
   margin-top: 8%;
+  background-color: #C70039;
 }
 
 .container.sign-up button {
   margin-top: 8%;
+  background-color: #C70039;
 }
 
 .container.sign-up #user-0, #pass-0 {
@@ -75,8 +80,11 @@
 
 .caption {
   font-size: 30px;
-  font-style: italic;
   font-family: monospace;
   text-align: center;
   margin-top: 4%;
+  color:#FBFBFB;
+}
+body {
+  background-color: #BF3B60;
 }
