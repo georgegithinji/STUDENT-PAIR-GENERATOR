@@ -14,7 +14,8 @@
       if(!isset($_SESSION['user']))
        {
            header("Location:index.php");
-       }?>
+       }
+?>
 <body>
 <div class="user-page">
   <main class="container user-side1">

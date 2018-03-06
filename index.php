@@ -67,10 +67,13 @@ if(mysqli_num_rows($check)){
 echo"<script>alert('user found');</script>";
 
           $_SESSION['user']=$user;
+          header("Location:user.php");
 }else{
 //echo "false";
 echo"<script>alert('user not found');</script>";
-//  exit();
+//header("Location:index.php");
+$name_error = "Please check your email and password then try again";
+  exit();
 }
 }
 ?>
