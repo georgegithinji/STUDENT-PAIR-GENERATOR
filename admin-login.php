@@ -1,7 +1,7 @@
 <?php  session_start(); ?>
 <?php
 error_reporting(E_ALL|E_STRICT);
-if(isset($_SESSION['user']))
+if(isset($_SESSION['userAdmin']))
  {
     header("Location:admin-dashboard.php");
  }
@@ -20,21 +20,18 @@ $username = test_input($_POST["admin-username"]);
 $password = $_POST["admin-password"];
 
 
-$check_username = "SELECT username FROM admin WHERE username='$username' AND password='$password'";
+$check_username = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
 $check =  mysqli_query($con, $check_username);
 
 if(mysqli_num_rows($check)){
-//echo"<script>alert('');</script>";
-//$insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$password')";
 echo"<script>alert('user found');</script>";
 $_SESSION['user']=$username;
   header("Location:admin-dashboard.php");
 }else{
-//echo "false";
 $overall_error = "Wrong username/password combination";
   header("Location:admin-login.php");
 echo"<script>alert('user not found');</script>";
-//  exit();
+ exit();
 }
 }
 ?>
@@ -57,7 +54,7 @@ echo"<script>alert('user not found');</script>";
      <h2>ADMIN LOGIN</h2>
       <h2>LOGIN</h2>
       <hr>
-      <form class="form-group" action="<?php echo htmlspecialchars($_SERVER[" PHP_SELF "]);?>" method="post">
+      <form class="form-group" action="admin-login.php" method="post">
         <label>USERNAME</label>
         <input type="text" placeholder="username" class="form-control" name="admin-username">
         <label id="pas">PASSWORD</label>

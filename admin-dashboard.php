@@ -13,12 +13,11 @@
   </title>
 </head>
 <?php
-        if(!isset($_SESSION['user']))
+        if(!isset($_SESSION['userAdmin']))
          {
-             header("Location:index.php");
+             header("Location:admin-login.php");
          }
   ?>
-
   <body>
     <div class="user-page">
       <main class="container user-side1">
@@ -41,7 +40,6 @@
       </main>
 
     </div>
-    >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
   </body>
 
 </html>
