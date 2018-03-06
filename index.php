@@ -40,8 +40,10 @@ if(mysqli_num_rows($check)){
 }else{
   $insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$pass')";
   if(mysqli_query($con,$insert_user)){
-echo"<script>alert('good');</script>";
+    echo"<script>alert('good');</script>";
+  $_SESSION['user']=$username;
   }
+  header("Location:index.php");
 }
 }
 
@@ -64,6 +66,7 @@ $check =  mysqli_query($con, $check_username);
 if(mysqli_num_rows($check)){
 echo"<script>alert('user found');</script>";
 
+          $_SESSION['user']=$user;
 }else{
 //echo "false";
 echo"<script>alert('user not found');</script>";
