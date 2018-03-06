@@ -1,19 +1,30 @@
+<?php  session_start(); ?>
 <?php
-//define('__ROOT__', dirname(dirname(__FILE__)));
 error_reporting(E_ALL|E_STRICT);
+if(isset($_SESSION['user']))
+ {
+    header("Location:user.php");
+ }
 require('conn.php');
 $con = mysqli_connect($host, $user, $pass,$name);
 $name_error=$username_error=$password_error="";
-if (isset($_POST["signup"])){
-$name = $_POST["user"];
-$username = $_POST["username"];
-$password = $_POST["password"];
+function test_input($data){
+   $data = trim($data);
+   $data = stripslashes($data);
+   $data = htmlspecialchars($data);
+   return $data;
+}
 
-// if(empty($name)){
+if (isset($_POST["signup"])){
+$name = test_input($_POST["user"]);
+$username = test_input($_POST["username"]);
+$password = test_input($_POST["password"]);
+$pass = password_hash($password, PASSWORD_BCRYPT);
+if(empty($name)){
 $name_error = "Please enter your name";
 }
 if(empty($username)){
-$username_error = "Please enter your a username"
+$username_error = "Please enter your a username";
 }
 
 if(empty($password)){
@@ -27,7 +38,7 @@ if(mysqli_num_rows($check)){
   $name_error = "Username already exists";
   exit();
 }else{
-  $insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$password')";
+  $insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$pass')";
   if(mysqli_query($con,$insert_user)){
 echo"<script>alert('good');</script>";
   }
@@ -35,16 +46,22 @@ echo"<script>alert('good');</script>";
 }
 
 if (isset($_POST["user-login"])){
-$username = $_POST["user-username"];
-$password = $_POST["user-password"];
+$username = test_input($_POST["user-username"]);
+$password = test_input($_POST["user-password"]);
+$pass = password_hash($password, PASSWORD_BCRYPT);
 
-
-$check_username = "SELECT username FROM users WHERE username='$username'";
+if(empty($username)){
+$name_error = "Please enter your username";
+}
+if(empty($password)){
+$username_error = "Please enter your password";
+}
+//$truePassword = password_verify($password, $retrieved_pass);
+$check_username = "SELECT username FROM users WHERE username='$username' AND password='$password'";
 $check =  mysqli_query($con, $check_username);
 
+
 if(mysqli_num_rows($check)){
-//echo"<script>alert('');</script>";
-//$insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$password')";
 echo"<script>alert('user found');</script>";
 
 }else{
