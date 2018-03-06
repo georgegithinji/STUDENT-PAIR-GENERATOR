@@ -25,7 +25,7 @@ $check =  mysqli_query($con, $check_username);
 
 if(mysqli_num_rows($check)){
 echo"<script>alert('user found');</script>";
-$_SESSION['user']=$username;
+$_SESSION['userAdmin']=$username;
   header("Location:admin-dashboard.php");
 }else{
 $overall_error = "Wrong username/password combination";
