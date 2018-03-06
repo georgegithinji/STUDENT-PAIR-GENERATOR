@@ -222,3 +222,6 @@ button.s-inline {
   height: 7vh;
   border: 1px solid #000;
 }
+.show{
+  display: contents;
+}
