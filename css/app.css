@@ -16,7 +16,10 @@
   text-align: center;
   font-family: fantasy;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.admin button {
   margin-top: 8%;
 }
@@ -24,7 +27,10 @@
 .container.admin #pas {
   margin-top: 4%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.sign-up {
   box-shadow: inset 0 0 150px #ccc;
   width: 30%;
@@ -40,7 +46,10 @@
 .container.sign-up h2 {
   text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.login h2 {
   text-align: center;
 }
@@ -60,7 +69,10 @@
 .container.login button {
   margin-top: 8%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.sign-up button {
   margin-top: 8%;
 }
@@ -85,7 +97,10 @@
   margin: 4%;
   height: 60vh;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.user-side1 {
   width: 80%;
   float: left;
@@ -100,7 +115,10 @@
   height: 40vh;
   margin-top: 9%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .window-list {
   display: inline-block;
   box-shadow: 0 0 4px 4px #ccc;
@@ -108,7 +126,19 @@
   height: 60vh;
   overflow: auto;
 }
+<<<<<<< HEAD
 
+=======
+.window {
+  margin-top: 4%;
+  border: 2px solid #000;
+  width: 30%;
+}
+
+.window1 {
+  float: right;
+}
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .btn#view-previous {
   margin-top: 35%;
   margin-left: 8%;
@@ -119,6 +149,7 @@
   width: 80%;
   margin-left: 10%;
 }
+<<<<<<< HEAD
 
 .window {
   margin-top: 4%;
@@ -130,6 +161,8 @@
   float: right;
 }
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 input.search {
   margin-left: 6%;
   text-align: center;
@@ -146,7 +179,11 @@ input.search {
 button.s-inline {
   margin-top: 20%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+}
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b

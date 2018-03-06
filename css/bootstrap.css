@@ -1,5 +1,8 @@
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -71,6 +74,7 @@ mark {
 small {
   font-size: 80%;
 }
+<<<<<<< HEAD
 =======
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -218,6 +222,8 @@ small {
 }
 
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 sub,
 sup {
   position: relative;
@@ -226,6 +232,9 @@ sup {
   vertical-align: baseline;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 sup {
   top: -.5em;
 }
@@ -253,6 +262,7 @@ pre {
 code,
 kbd,
 pre,
+<<<<<<< HEAD
 =======
 
 sub {
@@ -293,11 +303,16 @@ pre,
 code,
 kbd,
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 button,
 input,
 optgroup,
@@ -310,6 +325,7 @@ textarea {
 button {
   overflow: visible;
 }
+<<<<<<< HEAD
 =======
 
 pre {
@@ -379,11 +395,16 @@ input {
 }
 
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 button,
 select {
   text-transform: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6791,6 +6812,7 @@ button.close {
 .invisible {
   visibility: hidden;
 }
+<<<<<<< HEAD
 =======
 
 button,
@@ -15481,6 +15503,68 @@ a.text-dark:hover, a.text-dark:focus {
   .visible-xs-inline {
     display: inline !important;
   }
+=======
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 }
 @media (max-width: 767px) {
   .visible-xs-inline-block {
@@ -15645,6 +15729,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+<<<<<<< HEAD
 =======
 
 .visible {
@@ -15722,3 +15807,5 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
