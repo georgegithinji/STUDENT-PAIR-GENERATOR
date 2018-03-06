@@ -1,5 +1,58 @@
 <?php
+//define('__ROOT__', dirname(dirname(__FILE__)));
 error_reporting(E_ALL|E_STRICT);
+require('conn.php');
+$con = mysqli_connect($host, $user, $pass,$name);
+$name_error=$username_error=$password_error="";
+if (isset($_POST["signup"])){
+$name = $_POST["user"];
+$username = $_POST["username"];
+$password = $_POST["password"];
+
+// if(empty($name)){
+$name_error = "Please enter your name";
+}
+if(empty($username)){
+$username_error = "Please enter your a username"
+}
+
+if(empty($password)){
+  $password_error = "Please enter password";
+}
+
+$check_username = "SELECT username FROM users WHERE username='$username'";
+$check =  mysqli_query($con, $check_username);
+
+if(mysqli_num_rows($check)){
+  $name_error = "Username already exists";
+  exit();
+}else{
+  $insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$password')";
+  if(mysqli_query($con,$insert_user)){
+echo"<script>alert('good');</script>";
+  }
+}
+}
+
+if (isset($_POST["user-login"])){
+$username = $_POST["user-username"];
+$password = $_POST["user-password"];
+
+
+$check_username = "SELECT username FROM users WHERE username='$username'";
+$check =  mysqli_query($con, $check_username);
+
+if(mysqli_num_rows($check)){
+//echo"<script>alert('');</script>";
+//$insert_user = "INSERT INTO users(id,name,username,password) VALUE('','$name','$username','$password')";
+echo"<script>alert('user found');</script>";
+
+}else{
+//echo "false";
+echo"<script>alert('user not found');</script>";
+//  exit();
+}
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -20,7 +73,7 @@ error_reporting(E_ALL|E_STRICT);
     <main class="container sign-up">
       <h2>SIGN UP</h2>
       <hr>
-      <form class="form-group" action="./php/register.php" method="post">
+      <form class="form-group" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <label>NAME</label>
         <input type="text" placeholder="enter your name" class="form-control" name="user">
         <label id="user-0">USERNAME</label>
@@ -33,7 +86,7 @@ error_reporting(E_ALL|E_STRICT);
     <main class="container login">
       <h2>LOGIN</h2>
       <hr>
-      <form class="form-group" action="./php/userlogin.php" method="post">
+      <form class="form-group" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
         <label>USERNAME</label>
         <input type="text" placeholder="enter your name" class="form-control" name="user-username">
         <label id="pass">PASSWORD</label>
