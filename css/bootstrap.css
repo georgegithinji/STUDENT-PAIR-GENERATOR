@@ -1,8 +1,11 @@
 /*!
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -74,6 +77,7 @@ mark {
 small {
   font-size: 80%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
  * Bootstrap v4.0.0 (https://getbootstrap.com)
@@ -224,6 +228,8 @@ small {
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 sub,
 sup {
   position: relative;
@@ -233,8 +239,11 @@ sup {
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 sup {
   top: -.5em;
 }
@@ -262,6 +271,7 @@ pre {
 code,
 kbd,
 pre,
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -305,14 +315,19 @@ kbd,
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 button,
 input,
 optgroup,
@@ -325,6 +340,7 @@ textarea {
 button {
   overflow: visible;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -397,14 +413,19 @@ input {
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 button,
 select {
   text-transform: none;
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6812,6 +6833,7 @@ button.close {
 .invisible {
   visibility: hidden;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -15565,6 +15587,68 @@ a.text-dark:hover, a.text-dark:focus {
     display: inline !important;
   }
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 @media (max-width: 767px) {
   .visible-xs-inline-block {
@@ -15730,6 +15814,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 .visible {
@@ -15809,3 +15894,5 @@ a.text-dark:hover, a.text-dark:focus {
 >>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
 =======
 >>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
