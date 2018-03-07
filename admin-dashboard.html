@@ -4,31 +4,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
   <link rel="stylesheet" href="css/app.css" type="text/css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css">
   <title></title>
 </head>
 
-<body>
-  <div class="admin-dashboard-page">
-    <h2>Admin's Dashboard</h2>
-    <main class="container admin-side1">
+<body id="admin">
 
+  <header>
+    <div class="navbar navbar-default navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data target="#example" name="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a href="" class="navbar-brand">Pair Generator</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a href="">Pairs</a></li>
+            <li><a href="">Accounts</a></li>
+            <li><a href="">About</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="search">
+            </div>
+              <button class="btn navbar-btn"><img src="images/search.png" width="20em" height="20em"></button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+
+
+  <div class="admin-dashboard-page">
+    <h2><strong><em>Admin's Dashboard</em></strong></h2>
+    <main class="container admin-side1">
       <form class="form-group form-list">
-        <button type="submit" class="btn btn-lg window">Upload List</button>
+        <button type="submit" class="btn btn-lg window-admin">Upload List</button>
       </form>
 
 
       <form class="form-group form-list">
-        <button type="submit" class="btn btn-lg window">GENERATE</button>
+        <button type="submit" class="btn btn-lg window-admin">GENERATE</button>
       </form>
 
       <form class="form-group">
-        <button type="submit" class="btn btn-lg window">Switch Pair</button>
+        <button type="submit" class="btn btn-lg window-admin">Switch Pair</button>
 
-        <button class="btn btn-lg window1">Save</button>
+        <button class="btn btn-lg window-save-admin">Save</button>
 
-        <button type="submit" class="btn btn-lg window">Delete User</button>
+        <button type="submit" class="btn btn-lg window-admin">Delete User</button>
       </form>
     </main>
 
@@ -45,7 +77,6 @@
       </form>
 
       <div id="change-login-info">
-
         <h2>CHANGE LOGIN INFO</h2>
         <hr>
         <form class="form-group">

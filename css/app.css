@@ -16,6 +16,7 @@
   text-align: center;
   font-family: fantasy;
 }
+
 .container.admin button {
   margin-top: 8%;
 }
@@ -23,6 +24,7 @@
 .container.admin #pas {
   margin-top: 4%;
 }
+
 .container.sign-up {
   box-shadow: inset 0 0 150px #ccc;
   width: 30%;
@@ -38,6 +40,7 @@
 .container.sign-up h2 {
   text-align: center;
 }
+
 .container.login h2 {
   text-align: center;
 }
@@ -57,6 +60,7 @@
 .container.login button {
   margin-top: 8%;
 }
+
 .container.sign-up button {
   margin-top: 8%;
 }
@@ -81,6 +85,7 @@
   margin: 4%;
   height: 60vh;
 }
+
 .container.user-side1 {
   width: 80%;
   float: left;
@@ -95,6 +100,7 @@
   height: 40vh;
   margin-top: 9%;
 }
+
 .window-list {
   display: inline-block;
   box-shadow: 0 0 4px 4px #ccc;
@@ -102,6 +108,7 @@
   height: 60vh;
   overflow: auto;
 }
+
 .window {
   margin-top: 4%;
   border: 2px solid #000;
@@ -111,6 +118,7 @@
 .window1 {
   float: right;
 }
+
 .btn#view-previous {
   margin-top: 35%;
   margin-left: 8%;
@@ -121,6 +129,7 @@
   width: 80%;
   margin-left: 10%;
 }
+
 input.search {
   margin-left: 6%;
   text-align: center;
@@ -138,25 +147,32 @@ button.s-inline {
   margin-top: 20%;
 }
 
-
 /*admin-dashboard-page styling*/
+body#admin {
+  background-image: image(images/flying-birds.jpg);
+  background-position: center;
+  background-size: auto;
+}
 .admin-dashboard-page {
-  border: 2px solid black;
-  margin: 4%;
+
+  margin: 2%;
   text-align: center;
 }
+
 .container.admin-side1 {
   width: 60%;
   float: left;
   text-align: center;
   font-family: fantasy;
 }
+
 .container.admin-side2 {
   width: 40%;
   float: right;
   height: ;
-  margin-top:;
+  margin-top: ;
 }
+
 .btn#view-previous-admin {
   margin-top: 20%;
   margin-left: 8%;
@@ -165,21 +181,22 @@ button.s-inline {
 
 #change-login-info {
   width: 65%;
+  margin right: 50%;
   margin-left: 15%;
   margin-top: 5%;
   margin-bottom: 2%;
-  height: 45vh;
+  height: 60vh;
   box-shadow: inset 0 0 200px #000;
-  padding-left: 2%;
+  padding-left: 5%;
   padding-right: 2%;
 }
 
 #change-login-info h2 {
-
   padding-top: 5%;
   text-align: center;
   font-family: fantasy;
 }
+
 #change-login-info input {
   width: 80%;
 }
@@ -193,6 +210,18 @@ button.s-inline {
   text-align: center;
 }
 
-#change-login-info.pas {
+#change-login-info.pas {}
 
+.window-admin {
+  margin-top: 4%;
+  border: 1px solid #000;
+  width: 30%;
+  height: 2vh;
+  padding-bottom: 5%;
+}
+
+.window-save-admin {
+  width: 20%;
+  height: 7vh;
+  border: 1px solid #000;
 }
