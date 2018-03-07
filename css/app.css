@@ -149,6 +149,10 @@ button.s-inline {
 
 /*admin-dashboard-page styling*/
 
+body {
+  font-family: 'Open Sans', serif;
+}
+
 .admin-dashboard-page {
   border: 2px solid black;
   margin: 2%;
@@ -222,6 +226,7 @@ button.s-inline {
   height: 7vh;
   border: 1px solid #000;
 }
-.show{
+
+.show {
   display: contents;
 }
