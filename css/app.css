@@ -1,9 +1,13 @@
 .btn.btn-lg {
   border-radius: 15px 50px 30px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   background-color: #DC97AB;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+  background-color: #40CDC8;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
 }
 
 .container.admin {
@@ -12,12 +16,19 @@
   margin-top: 8%;
   height: 58vh;
 <<<<<<< HEAD
+<<<<<<< HEAD
   box-shadow: inset 0 0 200px #000;
 =======
   box-shadow: inset 0 0 200px #AE9CA1;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+  box-shadow: inset 0 0 20px #F6FBFB;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
   padding-left: 4%;
   padding-right: 4%;
+  background-color: #D2DAF0;
+  opacity: 0.8;
+
 }
 
 .container.admin h2 {
@@ -35,13 +46,18 @@
 
 .container.admin button {
   margin-top: 8%;
+<<<<<<< HEAD
   background-color: #DC97AB;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+  background-color: #40CDC8;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
 }
 
 .container.admin #pas {
   margin-top: 4%;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -54,6 +70,15 @@
 .container.sign-up {
   box-shadow: inset 0 0 150px #AE9CA1;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+.project-name {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.container.sign-up {
+  box-shadow: inset 0 0 150px #3D3638;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
   width: 30%;
   height: 65vh;
   float: left;
@@ -62,6 +87,9 @@
   font-weight: bolder;
   padding-left: 4%;
   padding-right: 4%;
+  background-color: #D2DAF0;
+  opacity: 0.8;
+
 }
 
 .container.sign-up h2 {
@@ -81,10 +109,14 @@
 
 .container.login {
 <<<<<<< HEAD
+<<<<<<< HEAD
   box-shadow: inset 0 0 150px #000;
 =======
   box-shadow: inset 0 0 150px #AE9CA1;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+  box-shadow: inset 0 0 150px #3D3638;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
   width: 30%;
   height: 50vh;
   float: right;
@@ -94,13 +126,20 @@
   padding-left: 4%;
   padding-right: 4%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+  background-color: #D2DAF0;
+  opacity: 0.8;
+
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
 
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 
 .container.login button {
   margin-top: 8%;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 <<<<<<< HEAD
@@ -111,12 +150,19 @@
   margin-top: 8%;
 =======
   background-color: #DC97AB;
+=======
+  background-color: #40CDC8;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
 }
 
 .container.sign-up button {
   margin-top: 8%;
+<<<<<<< HEAD
   background-color: #DC97AB;
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+=======
+  background-color: #40CDC8;
+>>>>>>> 5fb90b5ac89cc6a9470708762188dbf8b34d356b
 }
 
 .container.sign-up #user-0, #pass-0 {
@@ -243,7 +289,155 @@ button.s-inline {
   color:#FBFBFB;
 }
 body {
-  background-color: #BF3B60;
+  background-repeat: no-repeat;
+  background-image: url("../images/img.jpg");
+  background-size: cover;
+}
+.user-page {
+  margin: 4%;
+  height: 60vh;
+}
+
+.container.user-side1 {
+  width: 80%;
+  float: left;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.container.user-side2 {
+  box-shadow: inset 0 0 30px #3D3638;
+  width: 20%;
+  float: right;
+  height: 40vh;
+  margin-top: 9%;
+
+}
+
+.window-list {
+  display: inline-block;
+  box-shadow: 0 0 4px 4px #3D3638;
+  width: 80%;
+  height: 60vh;
+  overflow: auto;
+
+
+
+
+}
+
+.btn#view-previous {
+  margin-top: 35%;
+  margin-left: 8%;
+  height: 4em;
+}
+
+.form-list {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.window {
+  margin-top: 4%;
+  border: 2px solid #000;
+  width: 30%;
+
+
+}
+
+.window1 {
+  float: right;
+
+
+}
+
+input.search {
+  margin-left: 6%;
+  text-align: center;
+  color: #000;
+  width: 70%;
+  margin-top: 20%;
+}
+
+.s-inline {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button.s-inline {
+  margin-top: 20%;
+}
+.admin-dashboard-page {
+
+  margin: 2%;
+  text-align: left;
+
+}
+
+.container.admin-side1 {
+  width: 60%;
+  text-align: left;
+  font-family: fantasy;
+}
+
+.container.admin-side2 {
+  width: 40%;
+  float: right;
+  height: ;
+  margin-top: ;
+}
+
+.btn#view-previous-admin {
+  margin-top: 20%;
+  margin-left: 8%;
+  height: 4em;
+}
+
+#change-login-info {
+  width: 65%;
+  margin right: 50%;
+  margin-left: 15%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  height: 90vh;
+  box-shadow: inset 0 0 200px #000;
+  padding-left: 5%;
+  padding-right: 2%;
+}
+
+#change-login-info h2 {
+  padding-top: 5%;
+  text-align: center;
+  font-family: fantasy;
+}
+
+#change-login-info input {
+  width: 80%;
+}
+
+#change-login-info label {
+  padding-right: 40%;
+}
+
+#change-login-info button {
+  margin-top: 2%;
+  text-align: center;
+}
+
+#change-login-info.pas {}
+
+.window-admin {
+  margin-top: 4%;
+  border: 1px solid #000;
+  width: 30%;
+  height: 2vh;
+  padding-bottom: 5%;
+}
+
+.window-save-admin {
+  width: 20%;
+  height: 7vh;
+  border: 1px solid #000;
 }
 >>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 >>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
