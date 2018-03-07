@@ -1,5 +1,9 @@
 .btn.btn-lg {
   border-radius: 15px 50px 30px;
+<<<<<<< HEAD
+=======
+  background-color: #DC97AB;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 
 .container.admin {
@@ -7,7 +11,11 @@
   margin-left: 30%;
   margin-top: 8%;
   height: 58vh;
+<<<<<<< HEAD
   box-shadow: inset 0 0 200px #000;
+=======
+  box-shadow: inset 0 0 200px #AE9CA1;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
   padding-left: 4%;
   padding-right: 4%;
 }
@@ -16,17 +24,36 @@
   text-align: center;
   font-family: fantasy;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+.container.admin button {
+  margin-top: 8%;
+=======
 
 .container.admin button {
   margin-top: 8%;
+  background-color: #DC97AB;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 
 .container.admin #pas {
   margin-top: 4%;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.sign-up {
   box-shadow: inset 0 0 150px #ccc;
+=======
+
+.container.sign-up {
+  box-shadow: inset 0 0 150px #AE9CA1;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
   width: 30%;
   height: 65vh;
   float: left;
@@ -40,13 +67,24 @@
 .container.sign-up h2 {
   text-align: center;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 .container.login h2 {
   text-align: center;
 }
 
 .container.login {
+<<<<<<< HEAD
   box-shadow: inset 0 0 150px #000;
+=======
+  box-shadow: inset 0 0 150px #AE9CA1;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
   width: 30%;
   height: 50vh;
   float: right;
@@ -55,14 +93,30 @@
   font-weight: bolder;
   padding-left: 4%;
   padding-right: 4%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 
 .container.login button {
   margin-top: 8%;
+<<<<<<< HEAD
+}
+<<<<<<< HEAD
+
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+.container.sign-up button {
+  margin-top: 8%;
+=======
+  background-color: #DC97AB;
 }
 
 .container.sign-up button {
   margin-top: 8%;
+  background-color: #DC97AB;
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
 }
 
 .container.sign-up #user-0, #pass-0 {
@@ -75,6 +129,7 @@
 
 .caption {
   font-size: 30px;
+<<<<<<< HEAD
   font-style: italic;
   font-family: monospace;
   text-align: center;
@@ -85,7 +140,10 @@
   margin: 4%;
   height: 60vh;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .container.user-side1 {
   width: 80%;
   float: left;
@@ -100,7 +158,10 @@
   height: 40vh;
   margin-top: 9%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .window-list {
   display: inline-block;
   box-shadow: 0 0 4px 4px #ccc;
@@ -108,7 +169,19 @@
   height: 60vh;
   overflow: auto;
 }
+<<<<<<< HEAD
 
+=======
+.window {
+  margin-top: 4%;
+  border: 2px solid #000;
+  width: 30%;
+}
+
+.window1 {
+  float: right;
+}
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 .btn#view-previous {
   margin-top: 35%;
   margin-left: 8%;
@@ -119,6 +192,7 @@
   width: 80%;
   margin-left: 10%;
 }
+<<<<<<< HEAD
 
 .window {
   margin-top: 4%;
@@ -130,6 +204,8 @@
   float: right;
 }
 
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
 input.search {
   margin-left: 6%;
   text-align: center;
@@ -146,7 +222,28 @@ input.search {
 button.s-inline {
   margin-top: 20%;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+}
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+  font-family: monospace;
+  text-align: center;
+  margin-top: 4%;
+  color:#FBFBFB;
+}
+body {
+  background-color: #BF3B60;
+}
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc

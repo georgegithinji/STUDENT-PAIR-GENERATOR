@@ -1,5 +1,14 @@
 /*!
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -71,6 +80,11 @@ mark {
 small {
   font-size: 80%;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 =======
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -217,7 +231,15 @@ small {
   font-size: 80%;
 }
 
+<<<<<<< HEAD
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 sub,
 sup {
   position: relative;
@@ -226,6 +248,15 @@ sup {
   vertical-align: baseline;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 sup {
   top: -.5em;
 }
@@ -253,6 +284,11 @@ pre {
 code,
 kbd,
 pre,
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 =======
 
 sub {
@@ -292,12 +328,29 @@ a:not([href]):not([tabindex]):focus {
 pre,
 code,
 kbd,
+<<<<<<< HEAD
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 samp {
   font-family: monospace, monospace;
   font-size: 1em;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 button,
 input,
 optgroup,
@@ -310,6 +363,11 @@ textarea {
 button {
   overflow: visible;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 =======
 
 pre {
@@ -378,12 +436,29 @@ input {
   overflow: visible;
 }
 
+<<<<<<< HEAD
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 button,
 select {
   text-transform: none;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 button,
 html input[type="button"],
 input[type="reset"],
@@ -6791,6 +6866,11 @@ button.close {
 .invisible {
   visibility: hidden;
 }
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 =======
 
 button,
@@ -15419,7 +15499,11 @@ a.text-dark:hover, a.text-dark:focus {
   color: #6c757d !important;
 }
 
+<<<<<<< HEAD
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 .text-hide {
   font: 0/0 a;
   color: transparent;
@@ -15481,6 +15565,133 @@ a.text-dark:hover, a.text-dark:focus {
   .visible-xs-inline {
     display: inline !important;
   }
+<<<<<<< HEAD
+=======
+=======
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+.text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.hidden {
+  display: none !important;
+}
+.affix {
+  position: fixed;
+}
+@-ms-viewport {
+  width: device-width;
+}
+.visible-xs,
+.visible-sm,
+.visible-md,
+.visible-lg {
+  display: none !important;
+}
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+  table.visible-xs {
+    display: table !important;
+  }
+  tr.visible-xs {
+    display: table-row !important;
+  }
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 }
 @media (max-width: 767px) {
   .visible-xs-inline-block {
@@ -15645,6 +15856,11 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
 =======
 
 .visible {
@@ -15721,4 +15937,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+<<<<<<< HEAD
 >>>>>>> e35612e44159da18c6450b7d435146716c736d3f
+=======
+>>>>>>> ff9e24b89c5c72eef5755c1c206738b27b0ac3bc
+=======
+>>>>>>> 16d97a32e79f8085e2867ff6259f86c7fa681e0b
+=======
+>>>>>>> 156ecde0eb47643c6abfad19ab87a2adf79856a1
+>>>>>>> bbbc376cb0ddea8c8f3df7ec00912cfb049448cc
