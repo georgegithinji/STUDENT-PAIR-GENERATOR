@@ -3,6 +3,7 @@ body {
 }
 
 .btn.btn-lg {
+<<<<<<< HEAD
   border-radius: 15px;
   background-color: ;
   color: inherit;
@@ -12,6 +13,10 @@ body {
   padding-bottom: 2%;
   font-size: 20px;
   width: auto;
+=======
+  border-radius: 15px 50px 30px;
+  background-color: #40CDC8;
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .container.admin {
@@ -24,6 +29,10 @@ body {
   padding-right: 4%;
   background-color: #D2DAF0;
   opacity: 0.8;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .container.admin h2 {
@@ -39,16 +48,24 @@ body {
 .container.admin #pas {
   margin-top: 4%;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 .project-name {
   color: #ffffff;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
+<<<<<<< HEAD
 
 .container.sign-up {
   box-shadow: inset 0 0 150px #3D3638;
   border-radius: 15px;
+=======
+.container.sign-up {
+  box-shadow: inset 0 0 150px #3D3638;
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
   width: 30%;
   height: 65vh;
   float: left;
@@ -59,6 +76,10 @@ body {
   padding-right: 4%;
   background-color: #D2DAF0;
   opacity: 0.8;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .container.sign-up h2 {
@@ -80,8 +101,14 @@ body {
   padding-left: 4%;
   padding-right: 4%;
   background-color: #D2DAF0;
+<<<<<<< HEAD
   border-radius: 15px;
   opacity: 0.8;
+=======
+  opacity: 0.8;
+
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .container.login button {
@@ -107,6 +134,7 @@ body {
   font-family: monospace;
   text-align: center;
   margin-top: 4%;
+<<<<<<< HEAD
   color: #FBFBFB;
 }
 
@@ -118,8 +146,15 @@ body#admin-login, #user-login {
 
 #admin-log {
   border-radius: 15px;
+=======
+  color:#FBFBFB;
 }
-
+body {
+  background-repeat: no-repeat;
+  background-image: url("../images/img.jpg");
+  background-size: cover;
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
+}
 .user-page {
   margin: 4%;
   height: 60vh;
@@ -132,19 +167,32 @@ body#admin-login, #user-login {
 }
 
 .container.user-side2 {
+<<<<<<< HEAD
   width: 20%;
   float: right;
   height: auto;
   margin-top: ;
+=======
+  box-shadow: inset 0 0 30px #3D3638;
+  width: 20%;
+  float: right;
+  height: 40vh;
+  margin-top: 9%;
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .window-list {
   display: inline-block;
-  box-shadow: 0 0 4px 4px #ccc;
+  box-shadow: 0 0 4px 4px #3D3638;
   width: 80%;
   height: 60vh;
   border-radius: 15px;
   overflow: auto;
+
+
+
+
 }
 
 .window-list:hover {
@@ -171,11 +219,18 @@ body#admin-login, #user-login {
   margin-top: 4%;
   border: 1px solid red;
   width: 30%;
+
+
 }
 
 .window1 {
   float: right;
+<<<<<<< HEAD
   margin-top: 4%;
+=======
+
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 input.search {
@@ -194,10 +249,18 @@ input.search {
 button.s-inline {
   margin-top: 20%;
 }
+<<<<<<< HEAD
 
 .admin-dashboard-page {
   margin: 2%;
   text-align: left;
+=======
+.admin-dashboard-page {
+
+  margin: 2%;
+  text-align: left;
+
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
 
 .container.admin-side1 {
@@ -264,6 +327,7 @@ button.s-inline {
   width: 20%;
   height: 7vh;
   border: 1px solid #000;
+<<<<<<< HEAD
 }
 
 .show {
@@ -696,4 +760,6 @@ input.search {
   color: #000;
   width: 70%;
   margin-top: 20%;
+=======
+>>>>>>> 3095906d01afe2f773d8d82b57d8550a0c79ba5a
 }
