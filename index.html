@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>User sign up and login</title>
+</head>
+
+<body id="user-login">
+  <div class="caption">Sign up or login to find a pair!!</div>
+  <div class="main-user">
+    <main class="container sign-up">
+      <h2>SIGN UP</h2>
+      <div class="alert alert-danger sign-alert sign-fail">Please fill all the details</div>
+      <div class="alert alert-danger sign-alert sign-success">Sign up successful</div>
+      <hr>
+      <form class="form-group" id="sign-up">
+        <label>NAME</label>
+        <input type="text" placeholder="enter your name" class="form-control" id="signup-name" required>
+        <label id="user-0">USERNAME</label>
+        <input type="text" placeholder="enter a username" class="form-control" id="signup-username" required>
+        <label id="pass-0">PASSWORD</label>
+        <input type="password" class="form-control" id="signup-pass" required>
+        <button class="btn btn-lg center-block">SIGN UP</button>
+      </form>
+    </main>
+    <main class="container login">
+      <h2>LOGIN</h2>
+      <hr>
+      <form class="form-group" id="login" action="user.html" method="post">
+        <label>USERNAME</label>
+        <input id="login-username" type="text" placeholder="enter your name" class="form-control" required>
+        <label id="pass">PASSWORD</label>
+        <input id="login-pass" type="password" class="form-control" required>
+        <a id="alter"> Forgot password?</a>
+        <button class="btn btn-lg center-block">LOGIN</button>
+      </form>
+    </main>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <label>Enter email:</label>
+          <input type="email" placeholder="Enter your email here...">
+          <button type="submit" name="button" class="btn btn-primary btn-md">RESET PASSWORD</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+
+</body>
+
+</html>

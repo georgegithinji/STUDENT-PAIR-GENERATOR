@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/app.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<title>Administartor login</title>
+</head>
+
+<body id="admin-login">
+
+  <div class="project-name">
+    <h1>PAIR GENERATOR</h1>
+
+  </div>
+  <main class="container admin" id="admin-log">
+    <h2> ADMIN LOGIN</h2>
+    <hr>
+    <form class="form-group" action="admin-dashboard.html" method="post">
+      <label>USERNAME</label>
+      <input type="text" placeholder="username" class="form-control" required>
+      <label id="pas">PASSWORD</label>
+      <input type="password" class="form-control " required>
+      <button class="btn  btn-lg center-block">login</button>
+    </form>
+
+
+    <a href="#" id="reset">Forgot password?</a> 
+  </main>
+
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span class="Close">&times;</span>
+      <div class="modal-body">
+        <label>Enter email here:</label>
+        <input type="email" placeholder="Enter your email here...">
+        <button type="submit" name="button">RESET PASSWORD</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+
+
+</body>
+
+</html>

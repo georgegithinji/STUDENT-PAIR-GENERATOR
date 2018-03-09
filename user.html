@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/app.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>User page</title>
+</head>
+
+<body id="user">
+
+  <header>
+    <div class="navbar navbar-default navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data target="#example" name="button">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>-->
+          <a href="" class="navbar-brand" id="nav-title">PAIR GENERATOR</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav" id="nav-content">
+
+            <div class="dropdown">
+              <li><a href="">Accounts</a></li>
+              <div class="dropdown-contents">
+                <ul>
+                  <li><a href="" id="PassUser">Change Password</a></li>
+                  <li><a href="">Change Username</a></li>
+
+                </ul>
+              </div>
+            </div>
+
+            <li><a href="">About</a></li>
+          </ul>
+          <form class="navbar-form navbar-right" action="" role="search" id="search-bar">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="search">
+            </div>
+            <button class="btn navbar-btn"><img src="images/search.png" width="20em" height="20em"></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!--The Modal
+<div class="container">-->
+  <div class="modal" id="passModalUser">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div class="modal-header">
+        <h2>Change Password</h2>
+      </div>
+      <div class="modal-content">
+        <form>
+          <div class="form-group">
+            <label>Old Password</label><br>
+            <input type="password">
+          </div>
+          <div class="form-group">
+            <label>New Password</label><br>
+            <input type="password">
+          </div>
+          <div class="form-group">
+            <label>Confirm new password</label><br>
+            <input type="password">
+          </div>
+          <button type="submit" name="button">Change</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="user-page">
+    <main class="container user-side1">
+      <h2><strong>Today's Pairs</strong></h2>
+      <span class="window-list"></span>
+      <form class="form-group form-list">
+        <button type="submit" class="btn btn-lg window btn-warning">Request Pair Switch</button>
+        <button type="submit" class="btn btn-lg window1 btn-success">Save</button>
+      </form>
+    </main>
+    <main class="container user-side2">
+
+      <button class="btn-info " id="view-previous">VIEW PREVIOUS LIST</button>
+
+    </main>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xls/0.7.4-a/xls.js"></script>
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+</body>
+
+</html>
