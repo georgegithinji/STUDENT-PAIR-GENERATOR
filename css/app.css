@@ -1,6 +1,17 @@
+body {
+  font-family: 'Open Sans', serif;
+}
+
 .btn.btn-lg {
-  border-radius: 15px 50px 30px;
-  background-color: #40CDC8;
+  border-radius: 15px;
+  background-color: ;
+  color: inherit;
+  border-radius: 15px;
+  padding: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 20px;
+  width: auto;
 }
 
 .container.admin {
@@ -37,12 +48,13 @@
 
 .container.sign-up {
   box-shadow: inset 0 0 150px #3D3638;
+  border-radius: 15px;
   width: 30%;
   height: 65vh;
   float: left;
   margin-left: 10%;
   margin-top: 4%;
-  font-weight: bolder;
+  font-weight: bold;
   padding-left: 4%;
   padding-right: 4%;
   background-color: #D2DAF0;
@@ -57,10 +69,6 @@
   text-align: center;
 }
 
-.sign-alert {
-  display: none;
-}
-
 .container.login {
   box-shadow: inset 0 0 150px #3D3638;
   width: 30%;
@@ -72,6 +80,7 @@
   padding-left: 4%;
   padding-right: 4%;
   background-color: #D2DAF0;
+  border-radius: 15px;
   opacity: 0.8;
 }
 
@@ -93,10 +102,6 @@
   margin-top: 4%;
 }
 
-#alter {
-  color: rgb(14, 14, 14);
-}
-
 .caption {
   font-size: 30px;
   font-family: monospace;
@@ -105,10 +110,14 @@
   color: #FBFBFB;
 }
 
-body #admin-login, #user-login {
+body#admin-login, #user-login {
   background-repeat: no-repeat;
   background-image: url("../images/img.jpg");
   background-size: cover;
+}
+
+#admin-log {
+  border-radius: 15px;
 }
 
 .user-page {
@@ -120,30 +129,37 @@ body #admin-login, #user-login {
   width: 80%;
   float: left;
   text-align: center;
-  font-family: fantasy;
 }
 
 .container.user-side2 {
-  box-shadow: inset 0 0 30px #3D3638;
   width: 20%;
   float: right;
-  height: 40vh;
-  margin-top: 9%;
+  height: auto;
+  margin-top: ;
 }
 
 .window-list {
   display: inline-block;
-  box-shadow: 0 0 4px 4px #3D3638;
+  box-shadow: 0 0 4px 4px #ccc;
   width: 80%;
   height: 60vh;
+  border-radius: 15px;
   overflow: auto;
-  background-color: rgb(175, 220, 246);
 }
 
-.btn#view-previous {
+.window-list:hover {
+  background-color: white;
+}
+
+#view-previous {
+  padding: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   margin-top: 35%;
   margin-left: 8%;
   height: 4em;
+  border: 1px solid #ccc;
+  border-radius: 15px;
 }
 
 .form-list {
@@ -153,12 +169,13 @@ body #admin-login, #user-login {
 
 .window {
   margin-top: 4%;
-  border: 2px solid #000;
+  border: 1px solid red;
   width: 30%;
 }
 
 .window1 {
   float: right;
+  margin-top: 4%;
 }
 
 input.search {
@@ -176,7 +193,6 @@ input.search {
 
 button.s-inline {
   margin-top: 20%;
-<<<<<<< HEAD
 }
 
 .admin-dashboard-page {
@@ -372,261 +388,6 @@ button.s-inline {
 #nav-title {
   font-size: 28px;
   color: white;
-}
-
-#navbar {
-  float: right;
-  font-size: 20px;
-  overflow: hidden;
-}
-
-#navbar a {
-  float: left;
-  text-align: center;
-  /*padding: 14px 16px;*/
-  color: white;
-  text-decoration: none;
-}
-
-#navbar a:hover {
-  background-color: green;
-}
-
-.dropdown {
-  overflow: hidden;
-  float: left;
-}
-
-.dropdown-contents {
-  display: none;
-  min-width: 160px;
-  position: absolute;
-  z-index: 1;
-}
-
-.dropdown-contents a {
-  display: inline-block;
-  float: none;
-  text-align: left;
-}
-
-.dropdown-contents a :hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-contents {
-  display: block;
-}
-
-.admin-dashboard-page {
-  margin: 2%;
-  margin-top: 1px;
-  text-align: center;
-  overflow: auto;
-}
-
-.container.admin-side1 {
-  width: 60%;
-  float: left;
-  text-align: center;
-  font-family: fantasy;
-}
-
-.container.admin-side2 {
-  width: 40%;
-  float: right;
-  height: ;
-  margin-top: ;
-}
-
-.btn#view-previous-admin {
-  margin-top: %;
-  margin-left: %;
-  height: 4em;
-}
-
-#change-login-info {
-  width: 65%;
-  margin right: 50%;
-  margin-left: 15%;
-  margin-top: 5%;
-  margin-bottom: 2%;
-  height: 60vh;
-  box-shadow: inset 0 0 200px #000;
-  padding-left: 5%;
-  padding-right: 2%;
-}
-
-#change-login-info h2 {
-  padding-top: 5%;
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 50px;
-}
-
-#change-login-info input {
-  width: 80%;
-}
-
-#change-login-info label {
-  padding-right: 40%;
-}
-
-#change-login-info button {
-  margin-top: 2%;
-  text-align: center;
-}
-
-#change-login-info.pas {}
-
-#date {
-  font-size: 20px;
-}
-
-#btn-previous {
-  background-color: lightblue;
-  font-size: 20px;
-}
-
-#control {
-  border: 1px solid grey;
-  border-radius: 10px;
-  font-size: 20px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 2%;
-  /*padding-right: 5%;*/
-}
-
-#Upload {
-  background-color: lightblue;
-  float: left;
-  border-radius: 10px;
-  margin-top: 2%;
-  font-size: 30px;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
-#generate {
-  background-color: green;
-  height: 4em;
-  width: 20%;
-  text-align: center;
-  font-size: 50px;
-  padding: 5%;
-  padding-bottom: ;
-  padding-right: 32.5%;
-  border-radius: 10px;
-  margin-bottom: 0px;
-  margin-left: -15%;
-}
-
-#buttons {
-  margin-top: 0px;
-  overflow: hidden;
-}
-
-#buttons:first-child {
-  float: left;
-  margin-right: -10%;
-}
-
-#buttons :nth-child(2) {
-  margin-right: 15px;
-  /*float: right;*/
-  /*  padding: 15px 30px;*/
-}
-
-#switch {
-  background-color: orange;
-  height: 4em;
-  width: 20%;
-  text-align: center;
-  font-size: 50px;
-  padding: 5%;
-  padding-bottom: ;
-  padding-right: 27.5%;
-  border-radius: 10px;
-}
-
-#delete {
-  background-color: red;
-  height: 4em;
-  width: 20%;
-  text-align: center;
-  font-size: 50px;
-  padding: 5%;
-  padding-bottom: ;
-  padding-right: 27.5%;
-  margin-left: -20%;
-  border-radius: 10px;
-}
-
-button {
-  border: none;
-  outline: none;
-}
-
-#control {
-  width: 40%;
-}
-
-.controll {
-  display: inline;
-  vertical-align: middle;
-}
-
-#btn {
-  display: inline;
-}
-
-body#user {
-  background-image: url("../images/water-background-5.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.modal {
-  display: none;
-  width: 70%;
-  height: auto;
-  overflow: auto;
-  margin-top: 20%;
-  margin-left: 15%;
-}
-
-.modal-content {
-  background-color: rgb(182, 185, 198);
-  margin: auto;
-  padding: 20px;
-  border: 1px solid Black;
-  width: 80%;
-}
-
-.close {
-  font-size: 30px;
-}
-
-/*admin-dashboard-page styling*/
-
-.admin-dashboard-page-body {
-  background: url("../images/water-background-5.jpg")repeat 0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-  overflow: auto;
-}
-
-#admin-title {
-  text-align: center;
-  font-size: 50px;
-}
-
-#nav-title {
-  font-size: 28px;
-  color: white;
   height: 17vh;
 }
 
@@ -774,7 +535,7 @@ body#user {
 #generate {
   background-color: green;
   height: 4em;
-  width: auto;
+  width: 20%;
   text-align: center;
   font-size: 50px;
   padding: 5%;
@@ -804,7 +565,7 @@ body#user {
 #switch {
   background-color: orange;
   height: 4em;
-  width: auto;
+  width: 20%;
   text-align: center;
   font-size: 50px;
   padding: 5%;
@@ -816,7 +577,7 @@ body#user {
 #delete {
   background-color: red;
   height: 4em;
-  width: auto;
+  width: 20%;
   text-align: center;
   font-size: 50px;
   padding: 5%;
@@ -849,10 +610,90 @@ body#user {
   background-repeat: no-repeat;
   background-size: cover;
 }
-=======
-<<<<<<< HEAD
+
+/*Forgot password modals*/
+
+/*Modals styling*/
+
+/*.modal {
+  /*display: none;*/
+
+/*position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
 }
-=======
+
+#passModalAdmin {
+  display: none;
 }
->>>>>>> e35612e44159da18c6450b7d435146716c736d3f
->>>>>>> 746f1be900fc3492a0d0a4a43db0276f01c8fe4d
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid Black;
+  width: 80%;
+}*/
+
+/*Change username/password*/
+
+/*Modals styling*/
+
+#passModalUser {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  width: auto;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid Black;
+  width: auto;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-name {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.sign-alert {
+  display: none;
+}
+
+input.search {
+  margin-left: 6%;
+  text-align: center;
+  color: #000;
+  width: 70%;
+  margin-top: 20%;
+}

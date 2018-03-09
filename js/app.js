@@ -24,17 +24,6 @@ function check() {
 };
 
 $(document).ready(function() {
-  $("form#sign-up").submit(function(event) {
-    event.preventDefault();
-    store();
-  });
-  $("form#login").submit(function(event) {
-    event.preventDefault();
-    check();
-  });
-
-
-
   var oFileIn;
   var json, storedName, parsed, arr = [];
 
@@ -83,12 +72,8 @@ $(document).ready(function() {
       });
 
     };
-
     reader.readAsBinaryString(oFile);
-
   }
   $("span.window-list").append("<li>" + parsed + "kjgiuo</li>");
   console.log(parsed);
-
-
 });
