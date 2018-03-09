@@ -1,43 +1,49 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet" type="text/css">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/app.css" rel="stylesheet" type="text/css">
-
-  <title></title>
-=======
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css" rel="stylesheet" type="text/css">
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/app.css" rel="stylesheet" type="text/css">
 
 <title></title>
->>>>>>> e35612e44159da18c6450b7d435146716c736d3f
 </head>
 
-<body>
-</body>
+<body background="images/img.jpg">
 
-<main class="container admin">
-<<<<<<< HEAD
-  <h2>ADMIN LOGIN</h2>
-=======
-  <h2>LOGIN</h2>
->>>>>>> e35612e44159da18c6450b7d435146716c736d3f
-  <hr>
-  <form class="form-group">
-    <label>USERNAME</label>
-    <input type="text" placeholder="username" class="form-control">
-    <label id="pas">PASSWORD</label>
-    <input type=" password " class="form-control ">
-    <button class="btn  btn-lg center-block">login</button>
-  </form>
-</main>
+  <div class="project-name">
+    <h1>PAIR PROGRAMMING GENERATOR</h1>
+
+  </div>
+  <main class="container admin">
+    <h2> ADMIN LOGIN</h2>
+    <hr>
+    <form class="form-group" action="admin-dashboard.html" method="post">
+      <label>USERNAME</label>
+      <input type="text" placeholder="username" class="form-control" required>
+      <label id="pas">PASSWORD</label>
+      <input type="password" class="form-control " required>
+      <button class="btn  btn-lg center-block">login</button>
+    </form>
+
+
+    <button type="button" id="reset"> Forgot password? </button>
+  </main>
+
+  <div class="modal" id="myModal">
+    <div class="modal-content">
+      <span class="Close">&times;</span>
+      <div class="modal-body">
+        <label>Enter email here:</label>
+        <input type="email" placeholder="Enter your email here...">
+        <button type="submit" name="button">RESET PASSWORD</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery-3.3.1.js" charset="utf-8"></script>
+  <script src="js/app.js" charset="utf-8"></script>
+
+
+</body>
 
 </html>
